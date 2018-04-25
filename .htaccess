@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^privacy?$ pages/privacy.php
+RewriteRule ^terms?$ pages/terms.php
+RewriteRule ^contact?$ pages/contact.php
+RewriteRule ^events?$ pages/event.php
+RewriteRule ^tours?$ pages/tours.php
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1
+RewriteRule ^([a-zA-Z0-9]+)/$ index.php?page=$1
